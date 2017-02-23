@@ -1,0 +1,23 @@
+{
+    "name": "chtombleson/sphinx",
+    "description": "Fulltext search using Sphinx.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Tombleson",
+            "email": "chris@cribznetwork.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sphinx": "src"
+        }
+    }
+}
